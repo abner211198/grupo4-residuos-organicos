@@ -1,0 +1,111 @@
+header {
+  width: 100%;
+  min-height: 625px;
+}
+
+.wave {
+  position: relative;
+  padding-top: 8rem;
+  background: linear-gradient(
+    90deg,
+    rgb(253, 137, 29) 0%,
+    rgb(69, 252, 130) 100%
+  );
+}
+
+.wave:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 216px;
+  background: url("../img/wave.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navbar .nav-link {
+  transition: 0.2s;
+}
+
+a.nav-link:hover {
+  padding-bottom: 3px;
+  border-bottom: 2px solid rgb(37, 28, 28);
+}
+.bg-light {
+  background: linear-gradient(
+    90deg,
+    rgb(253, 137, 29) 0%,
+    rgb(69, 252, 130) 100%
+  );
+}
+/* section */
+section {
+  padding: 82px 0;
+}
+
+.section-bg {
+  background-color: #ffffff;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #fc562c;
+}
+
+/* footer */
+
+footer {
+  border-top: 1px solid #7e7e7e;
+  padding-top: 0px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+footer .container {
+  padding-top: 0px;
+}
+
+/* ultimos ajustes */
+
+@media (max-width: 992px) {
+  .wave {
+    padding-top: 6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .text-center-xs {
+    text-align: center;
+  }
+  .text-center-xs img {
+    width: 366px;
+  }
+}
+
+.section-bg {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.hh {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgb(0, 0, 0);
+}
+.navbar-light .navbar-brand {
+  color: rgb(0, 0, 0);
+}
